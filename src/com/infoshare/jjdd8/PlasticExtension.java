@@ -1,4 +1,5 @@
 package com.infoshare.jjdd8;
 
-public class PlasticExtension {
+public abstract class PlasticExtension<T> extends Plastic {
+    abstract void makeRaft(T item);
 }
